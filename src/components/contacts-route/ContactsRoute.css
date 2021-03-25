@@ -1,0 +1,137 @@
+.contacts-route {
+  background-color: var(--main-white);
+  color: black;
+  display: flex;
+  padding: 0;
+}
+
+.contacts-route-side-picture {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.contacts-route-side-picture-text {
+  color: white;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 90px;
+  letter-spacing: 8px;
+}
+
+.contacts-route-wrapper {
+  width: 50%;
+  padding: 40px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.contacts-route-context-wrapper {
+  display: flex;
+  margin-top: 50px;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1000px;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.contacts-route-context-divider {
+  width: 2px;
+  height: 150px;
+  background-color: black;
+}
+
+.contacts-route-context-divider.mobile {
+  display: none;
+}
+
+.context-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  width: 49%;
+  line-height: 25px;
+  font-size: 0.9em;
+  font-weight: 600;
+}
+
+.context-header {
+  font-weight: 800;
+  font-size: 1.2em;
+  padding: 10px 0;
+}
+
+.contacts-route-icons {
+  font-size: 2.2em;
+}
+
+@media (max-width: 850px) {
+  .context-wrapper {
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  .contacts-route-side-picture {
+    background-position: -185px;
+  }
+
+  .contacts-route-side-picture-text {
+    font-size: 50px;
+    line-height: 60px;
+  }
+}
+
+@media (max-width: 650px) {
+  .contacts-route {
+    flex-direction: column;
+  }
+
+  .contacts-route-wrapper {
+    width: 100%;
+  }
+
+  .contacts-route-side-picture {
+    height: 400px;
+    width: 100%;
+    background-position: left;
+  }
+
+  .contacts-route-side-picture-text {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .context-wrapper {
+    width: 49%;
+  }
+
+  .contacts-route-context-divider.mobile {
+    display: block;
+  }
+}
+
+@media (max-width: 500px) {
+  .context-wrapper {
+    font-size: 0.8em;
+    width: 49%;
+  }
+
+  .context-header {
+    font-size: 1.1em;
+  }
+
+  .contacts-route-icons {
+    font-size: 2.1em;
+  }
+}

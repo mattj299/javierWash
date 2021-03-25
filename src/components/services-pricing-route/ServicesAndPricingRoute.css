@@ -1,0 +1,137 @@
+/* Services And Pricing Route Section */
+.services-pricing-route {
+  background-color: var(--main-white);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  font-weight: 400;
+}
+
+.services-pricing-route-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.services-pricing-route .section-header {
+  color: black;
+}
+
+.services-pricing-route-description {
+  color: black;
+}
+
+.pricing-not-final {
+  font-size: 1.25em;
+}
+
+.pricing-list {
+  max-width: 1100px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: left;
+  line-height: 22px;
+}
+
+.pricing-list td,
+.pricing-list th {
+  border: 1px solid #c2c2c2;
+  padding: 12px;
+}
+
+.pricing-list th {
+  background-color: var(--main-black);
+  color: var(--main-white);
+}
+
+.pricing-list tr:nth-child(even) {
+  background-color: var(--light-gray);
+}
+
+.pricing-list-col-one {
+  width: 30%;
+}
+
+.pricing-list-col-two {
+  width: 55%;
+}
+
+.pricing-list-col-three {
+  width: 15%;
+}
+
+.pricing-list-service,
+.pricing-list-price {
+  font-weight: 700;
+}
+
+.pricing-list-description {
+  font-size: 14px;
+}
+
+@media (max-width: 850px) {
+  .pricing-list-col-two {
+    width: 50%;
+  }
+
+  .pricing-list-col-three {
+    width: 20%;
+  }
+}
+
+@media (max-width: 700px) {
+  .mobile .pricing-list-headers {
+    display: none;
+  }
+
+  .mobile .pricing-list-description {
+    font-size: 13px;
+  }
+
+  .mobile tr {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .pricing-list tr:nth-child(even) {
+    background-color: var(--main-white);
+  }
+
+  .mobile td {
+    border-top: none;
+  }
+
+  .mobile .pricing-list-service {
+    color: white;
+    background-color: black;
+    border-top: 1px solid #c2c2c2;
+  }
+}
+
+/* Leaflet Map and Map Section*/
+#map {
+  height: 500px;
+  width: 100%;
+}
+
+.services-pricing-route-map {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--light-gray);
+  padding: 50px 0 0;
+}
+
+.map-context {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}

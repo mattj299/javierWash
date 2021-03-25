@@ -1,0 +1,23 @@
+/* About Section */
+.about {
+  background-color: var(--main-white);
+}
+
+.about-wrapper {
+  width: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.about-content {
+  padding: 20px 0;
+}
+
+.about-description {
+  max-width: 1000px;
+  line-height: 30px;
+}

@@ -1,0 +1,22 @@
+/* Button Section */
+.btn {
+  padding: 2.5px 20px;
+  font-size: 1.25em;
+  font-weight: 700;
+  background-color: transparent;
+  letter-spacing: inherit;
+  transition: all 0.5s;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+}
+
+.section-btn {
+  padding: 2.5px 50px;
+}
+
+.section-btn:hover {
+  background-color: var(--dark-gray);
+}

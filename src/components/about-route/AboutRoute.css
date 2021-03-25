@@ -1,0 +1,202 @@
+/* About Route */
+.about-route-hero {
+  background-position: bottom;
+}
+
+.about-route {
+  background-color: var(--main-white);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+}
+
+.about-route-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.about-route-description {
+  line-height: 30px;
+  margin-top: 20px;
+  font-weight: 400;
+}
+
+@media (max-width: 850px) {
+  .about-route-hero {
+    background-position: right;
+  }
+}
+
+/* Choose Us Items */
+.choose-us-item-bg-number {
+  color: var(--dark-gray);
+  font-size: 14em;
+  top: 95px;
+  font-weight: 800;
+  position: relative;
+  z-index: 1;
+}
+
+.about-route-why-choose-us-items {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-route-choose-us-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-self: flex-start;
+  width: 31%;
+  padding: 2%;
+  min-height: 275px;
+}
+
+.choose-us-item-header {
+  font-weight: 800;
+  font-size: 1.15em;
+  z-index: 2;
+}
+
+.choose-us-item-description {
+  margin-top: 5px;
+  line-height: 27.5px;
+  font-size: 0.95em;
+  z-index: 2;
+}
+
+.about-route-choose-us-btn:hover {
+  background-color: var(--dark-gray);
+}
+
+.about-route-choose-us-btn {
+  padding: 2.5px 50px;
+}
+
+@media (max-width: 850px) {
+  .about-route-choose-us-item {
+    width: 48%;
+    min-height: 225px;
+  }
+
+  .about-route-choose-us-item:last-child {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 550px) {
+  .about-route-choose-us-item {
+    width: 98%;
+    margin: 15px 0;
+    min-height: 175px;
+  }
+
+  .choose-us-item-bg-number {
+    font-size: 12em;
+    top: 75px;
+  }
+}
+
+/* Swiper Testimonials */
+
+.about-route-testimonials {
+  /* background-color: var(--light-gray); */
+  color: var(--main-white);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.swiper-testimonial {
+  width: 100%;
+  height: 300px;
+}
+
+.testimonial-quote {
+  position: relative;
+  width: 100%;
+  font-size: 30px;
+  bottom: 10px;
+}
+
+.swiper-text {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 10%;
+  bottom: 25px;
+  line-height: 30px;
+  font-weight: 600;
+}
+
+.anonymous-author {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  top: 25px;
+  color: var(--main-white);
+  font-weight: 700;
+}
+
+.swiper-pagination-bullets {
+  bottom: -10px !important;
+}
+
+.swiper-pagination {
+  pointer-events: all !important;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1 !important;
+}
+
+.swiper-pagination-bullet {
+  background: var(--main-white);
+  opacity: 0.5;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: var(--main-white);
+  padding: 15px;
+}
+
+@media (max-width: 850px) {
+  .swiper-container {
+    font-size: 0.95em;
+  }
+  .anonymous-author {
+    top: 15px;
+  }
+}
+
+@media (max-width: 550px) {
+  .swiper-container {
+    font-size: 0.9em;
+  }
+
+  .swiper-text {
+    line-height: 20px;
+    padding: 0 5%;
+    text-align: center;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none;
+  }
+}

@@ -1,0 +1,47 @@
+.scroll-top-button {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  cursor: pointer;
+  z-index: 999;
+}
+
+.scroll-top-button-wrapper {
+  position: relative;
+  transition: transform 0.5s;
+}
+
+.scroll-top-icon {
+  font-size: 40px;
+  color: var(--main-black);
+}
+
+.scroll-top-button-wrapper:hover {
+  transform: scale(1.2);
+}
+
+.scroll-top-button-wrapper:active {
+  transform: scale(1.6);
+}
+
+.icon-background {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  position: fixed;
+  right: 55px;
+  bottom: 59px;
+  border-radius: 100%;
+}
+
+@media (max-width: 650px) {
+  .scroll-top-button {
+    right: 30px;
+    bottom: 30px;
+  }
+
+  .icon-background {
+    right: 35px;
+    bottom: 39px;
+  }
+}

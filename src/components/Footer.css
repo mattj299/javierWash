@@ -1,0 +1,108 @@
+/* Footer Section */
+.footer {
+  background-color: var(--main-black);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  line-height: 30px;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer-divider {
+  position: relative;
+  height: auto;
+  width: 1px;
+  background-color: white;
+}
+
+.footer-header {
+  margin-bottom: 10px;
+  position: relative;
+  left: -25px;
+}
+
+.footer-pages .footer-header {
+  left: -35px;
+}
+.footer-pages,
+.footer-contacts {
+  display: flex;
+  flex-direction: column;
+  width: 49%;
+  align-items: center;
+}
+
+.footer-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.footer-link {
+  display: flex;
+  align-items: center;
+  height: 27.5px;
+  transition: color 0.5s;
+}
+
+.footer-link:hover {
+  color: var(--main-red);
+}
+
+.footer-react-icons {
+  margin-right: 5px;
+}
+
+@media (max-width: 450px) {
+  .footer-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-divider {
+    height: 1px;
+    width: 100%;
+    margin: 35px 0;
+  }
+
+  .footer-item {
+    margin-top: 5px;
+  }
+}
+
+/** Copyright Section **/
+
+.footer-copyright {
+  color: white;
+  background-color: var(--main-black);
+  padding: 15px;
+}
+
+.footer-copyright-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.copyright-car-wash-logo {
+  position: relative;
+  height: 20px;
+  width: 20px;
+  filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(329deg)
+    brightness(109%) contrast(101%);
+  margin-right: 8px;
+}
+
+.copyright-brand {
+  display: flex;
+}
+
+@media (max-width: 450px) {
+  .footer-copyright {
+    font-size: 0.95em;
+  }
+}
