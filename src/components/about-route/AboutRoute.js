@@ -11,6 +11,8 @@ import * as ROUTES from "../../routes/routes";
 
 import "./AboutRoute.css";
 
+import BgCarousel from "../../images/car-wash-cinematic.jpg";
+
 SwiperCore.use([Navigation, Pagination]);
 
 function AboutRoute() {
@@ -65,8 +67,7 @@ function AboutRoute() {
       <section
         className="about-route-testimonials"
         style={{
-          backgroundImage:
-            "linear-gradient(to top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5) ) ,url(/images/car-wash-cinematic.jpg)",
+          backgroundImage: `linear-gradient(to top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5) ) ,url(${BgCarousel})`,
         }}
       >
         <h2 className="section-header">Testimonials</h2>

@@ -26,13 +26,7 @@ function FaqComponent() {
     };
   }, []);
   return (
-    <section
-      className="faq-route"
-      // style={{
-      //   backgroundImage:
-      //     "linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4) ) ,url(/images/bg-section-faq.png)",
-      // }}
-    >
+    <section className="faq-route">
       <div className="faq-route-wrapper container">
         <h2 className="section-header">FAQ</h2>
         <div className="header-line"></div>

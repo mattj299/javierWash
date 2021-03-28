@@ -2,6 +2,8 @@ import React, { useEffect } from "react";
 import HeroSection from "../HeroSection";
 import ContactsRoute from "../contacts-route/ContactsRoute";
 
+import heroImg4 from "../../images/hero-image4.jpg";
+
 function ContactsPage() {
   useEffect(() => {
     // Adds active to nav link so it's highlighted red
@@ -19,7 +21,7 @@ function ContactsPage() {
         fullPage={false}
         h1Text="Book A Wash!"
         pText="Don't be afraid, we're one call away!"
-        backgroundImage="url(/images/hero-image4.jpg)"
+        backgroundImage={`url(${heroImg4})`}
         color="white"
         flip={true}
         bgGradientColor="black-bg"

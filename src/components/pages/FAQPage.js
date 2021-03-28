@@ -2,6 +2,8 @@ import React, { useEffect } from "react";
 import HeroSection from "../HeroSection";
 import FaqRoute from "../faq-route/FaqRoute";
 
+import heroImg3 from "../../images/hero-image3.jpg";
+
 function FAQPage() {
   useEffect(() => {
     // Adds active to nav link so it's highlighted red
@@ -20,7 +22,7 @@ function FAQPage() {
         h1Text="Frequently Asked Questions"
         pText="Some of the most asked questions."
         flip={true}
-        backgroundImage="url(/images/hero-image3.jpg)"
+        backgroundImage={`url(${heroImg3})`}
         color="white"
         bgGradientColor="black-bg"
       />

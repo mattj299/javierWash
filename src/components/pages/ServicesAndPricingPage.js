@@ -2,6 +2,8 @@ import React, { useEffect } from "react";
 import HeroSection from "../HeroSection";
 import ServicesAndPricingRoute from "../services-pricing-route/ServicesAndPricingRoute";
 
+import heroImg7 from "../../images/hero-image7.jpg";
+
 function ServicesAndPricingPage() {
   useEffect(() => {
     // Adds active to nav link so it's highlighted red
@@ -20,7 +22,7 @@ function ServicesAndPricingPage() {
         fullPage={false}
         h1Text="Services and Pricing"
         pText="Best services at affordable prices!"
-        backgroundImage="url(/images/hero-image7.jpg)"
+        backgroundImage={`url(${heroImg7})`}
         color="white"
         bgGradientColor="black-bg"
       />

@@ -4,6 +4,13 @@ import Button from "../Button";
 
 import * as ROUTES from "../../routes/routes";
 
+import exteriorCarLogo from "../../images/exterior-car-logo.webp";
+import fullCarLogo from "../../images/full-car-logo.png";
+import interiorCarLogo from "../../images/interior-car-logo.webp";
+import shinyEntierCar from "../../images/shiny-entire-car.jpg";
+import andMoreCarLogo from "../../images/and-more-car-logo.webp";
+import cleanInteriorCar from "../../images/clean-interior-car.jpg";
+
 function Services() {
   return <ServiceBoxes />;
 }
@@ -24,30 +31,26 @@ function ServiceBoxes() {
           <ServiceBox
             header="Exterior Wash"
             description="For when all you need is an outside wash. Gives your car the outside look you want!"
-            icon="/images/exterior-car-logo.webp"
+            icon={exteriorCarLogo}
           />
           <ServiceBox
             header="Classic Inside and Out wash"
             description="Customers Favorite! Both inside and out wash!"
-            icon="/images/full-car-logo.png"
+            icon={fullCarLogo}
           />
           <ServiceBox
             header="Interior Wash"
             description="For when the inside needs a littly tidying we're here to do just that!"
-            icon="/images/interior-car-logo.webp"
+            icon={interiorCarLogo}
           />
-          <img
-            src="/images/shiny-entire-car.jpg"
-            alt="Shiny car"
-            className="service-box"
-          />
+          <img src={shinyEntierCar} alt="Shiny car" className="service-box" />
           <ServiceBox
             header="Much More"
             description="Click on any of the Learn More buttons and learn more about these offers and the prices of the offers!"
-            icon="/images/and-more-car-logo.webp"
+            icon={andMoreCarLogo}
           />
           <img
-            src="/images/clean-interior-car.jpg"
+            src={cleanInteriorCar}
             alt="Clean interior of car"
             className="service-box"
           />

@@ -5,6 +5,8 @@ import Services from "../home-route/Services";
 import FAQ from "../home-route/FAQ";
 import Pricing from "../home-route/Pricing";
 
+import heroImg1 from "../../images/hero-image1.jpg";
+
 function HomePage() {
   useEffect(() => {
     // Adds active to nav link so it's highlighted red
@@ -23,7 +25,7 @@ function HomePage() {
         h1Text="Javier Mobile Car Wash"
         pText={<>Simi Valley CA and ALL surrounding areas</>}
         flip={true}
-        backgroundImage="url(/images/hero-image1.jpg)"
+        backgroundImage={`url(${heroImg1})`}
         color="white"
         bgGradientColor="black-bg"
       />

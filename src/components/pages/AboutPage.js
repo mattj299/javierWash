@@ -2,6 +2,8 @@ import React, { useEffect } from "react";
 import HeroSection from "../HeroSection";
 import AboutRoute from "../about-route/AboutRoute";
 
+import bgSectionChooseUs from "../../images/bg-section-choose-us.jpg";
+
 function AboutPage() {
   useEffect(() => {
     // Adds active to nav link so it's highlighted red
@@ -19,7 +21,7 @@ function AboutPage() {
         fullPage={false}
         h1Text="About Us"
         pText="A little more about Javier Car Wash."
-        backgroundImage="url(/images/bg-section-choose-us.jpg)"
+        backgroundImage={`url(${bgSectionChooseUs})`}
         color="white"
         flip={false}
         bgGradientColor="black-bg"

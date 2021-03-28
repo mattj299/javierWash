@@ -5,6 +5,8 @@ import { MdPhoneIphone } from "react-icons/md";
 import { IconContext } from "react-icons/lib";
 import { IoShareSocialOutline } from "react-icons/io5";
 
+import bgContactsSide from "../../images/bg-section-7.jpg";
+
 function ContactsRoute() {
   // When under 850px remove black line separating context such as phone, location, etc.
   const [under850px, setUnder850px] = useState(false);
@@ -32,7 +34,7 @@ function ContactsRoute() {
         <div
           className="contacts-route-side-picture"
           style={{
-            backgroundImage: "url(/images/bg-section-7.jpg)",
+            backgroundImage: `url(${bgContactsSide})`,
           }}
         >
           <div className="contacts-route-side-picture-text">
