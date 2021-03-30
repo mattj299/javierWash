@@ -7,7 +7,7 @@ import { HiOutlineMail, HiLocationMarker } from "react-icons/hi";
 
 import * as ROUTES from "../routes/routes";
 
-import logo1 from "../images/logo1.png";
+import logo1small from "../images/logo1small.png";
 
 function Footer() {
   return (
@@ -110,7 +110,7 @@ function Copyright() {
           <div className="copyright-brand">
             <img
               className="copyright-car-wash-logo"
-              src={logo1}
+              src={logo1small}
               alt="Car Wash Icon"
             />
             <p>Javier Car Wash</p>

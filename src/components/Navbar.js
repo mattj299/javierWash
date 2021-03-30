@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 import * as ROUTES from "../routes/routes";
 
-import logo1 from "../images/logo1.png";
+import logo1small from "../images/logo1small.png";
 
 function Navbar() {
   // useState used to see if menu is being displayed when on smaller screens
@@ -49,7 +49,7 @@ function Navbar() {
               </h2>
               <img
                 className="nav-img"
-                src={logo1}
+                src={logo1small}
                 // src="images/logo1.png"
                 alt="brand-logo"
               />
