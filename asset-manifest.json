@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/javierWash/static/css/main.1ed9d1b3.chunk.css",
-    "main.js": "/javierWash/static/js/main.71595393.chunk.js",
-    "main.js.map": "/javierWash/static/js/main.71595393.chunk.js.map",
+    "main.js": "/javierWash/static/js/main.0e8a390b.chunk.js",
+    "main.js.map": "/javierWash/static/js/main.0e8a390b.chunk.js.map",
     "runtime-main.js": "/javierWash/static/js/runtime-main.b7a5cd00.js",
     "runtime-main.js.map": "/javierWash/static/js/runtime-main.b7a5cd00.js.map",
     "static/css/2.8bae3570.chunk.css": "/javierWash/static/css/2.8bae3570.chunk.css",
@@ -12,18 +12,17 @@
     "static/css/2.8bae3570.chunk.css.map": "/javierWash/static/css/2.8bae3570.chunk.css.map",
     "static/css/main.1ed9d1b3.chunk.css.map": "/javierWash/static/css/main.1ed9d1b3.chunk.css.map",
     "static/js/2.a7248e5d.chunk.js.LICENSE.txt": "/javierWash/static/js/2.a7248e5d.chunk.js.LICENSE.txt",
-    "static/media/and-more-car-logo.fa4691f6.webp": "/javierWash/static/media/and-more-car-logo.fa4691f6.webp",
+    "static/media/and-more-car-logo.d5017f46.webp": "/javierWash/static/media/and-more-car-logo.d5017f46.webp",
     "static/media/bg-section-7.48bbbd5e.jpg": "/javierWash/static/media/bg-section-7.48bbbd5e.jpg",
     "static/media/bg-section-choose-us.ebdd5c05.jpg": "/javierWash/static/media/bg-section-choose-us.ebdd5c05.jpg",
     "static/media/car-wash-cinematic.15930a3a.jpg": "/javierWash/static/media/car-wash-cinematic.15930a3a.jpg",
     "static/media/clean-interior-car.6dcbdf87.jpg": "/javierWash/static/media/clean-interior-car.6dcbdf87.jpg",
-    "static/media/exterior-car-logo.99c0013d.webp": "/javierWash/static/media/exterior-car-logo.99c0013d.webp",
-    "static/media/full-car-logo.aa97c29a.png": "/javierWash/static/media/full-car-logo.aa97c29a.png",
+    "static/media/exterior-car-logo.4abe00dc.webp": "/javierWash/static/media/exterior-car-logo.4abe00dc.webp",
     "static/media/hero-image1.35725cd5.jpg": "/javierWash/static/media/hero-image1.35725cd5.jpg",
     "static/media/hero-image3.5220000a.jpg": "/javierWash/static/media/hero-image3.5220000a.jpg",
     "static/media/hero-image4.f3e761cd.jpg": "/javierWash/static/media/hero-image4.f3e761cd.jpg",
     "static/media/hero-image7.d3d27035.jpg": "/javierWash/static/media/hero-image7.d3d27035.jpg",
-    "static/media/interior-car-logo.c9fa5642.webp": "/javierWash/static/media/interior-car-logo.c9fa5642.webp",
+    "static/media/interior-car-logo.19281ad7.webp": "/javierWash/static/media/interior-car-logo.19281ad7.webp",
     "static/media/shiny-entire-car.35253e0a.jpg": "/javierWash/static/media/shiny-entire-car.35253e0a.jpg"
   },
   "entrypoints": [
@@ -31,6 +30,6 @@
     "static/css/2.8bae3570.chunk.css",
     "static/js/2.a7248e5d.chunk.js",
     "static/css/main.1ed9d1b3.chunk.css",
-    "static/js/main.71595393.chunk.js"
+    "static/js/main.0e8a390b.chunk.js"
   ]
 }
