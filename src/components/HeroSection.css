@@ -18,7 +18,7 @@
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
   z-index: -1;
 }
 
@@ -143,6 +143,10 @@ This is experiment I want to make my website look better, not so fucking basico 
 @media (max-width: 550px) {
   .half-text-wrapper {
     top: 20px;
+  }
+
+  .hero-background {
+    background-attachment: unset;
   }
 
   /* Adds the black and white to the sides or bottom, making the text readable without really messing up bg imag */
