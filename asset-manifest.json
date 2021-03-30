@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/javierWash/static/css/main.1ed9d1b3.chunk.css",
-    "main.js": "/javierWash/static/js/main.48c20ddf.chunk.js",
-    "main.js.map": "/javierWash/static/js/main.48c20ddf.chunk.js.map",
+    "main.js": "/javierWash/static/js/main.71595393.chunk.js",
+    "main.js.map": "/javierWash/static/js/main.71595393.chunk.js.map",
     "runtime-main.js": "/javierWash/static/js/runtime-main.b7a5cd00.js",
     "runtime-main.js.map": "/javierWash/static/js/runtime-main.b7a5cd00.js.map",
     "static/css/2.8bae3570.chunk.css": "/javierWash/static/css/2.8bae3570.chunk.css",
@@ -24,7 +24,6 @@
     "static/media/hero-image4.f3e761cd.jpg": "/javierWash/static/media/hero-image4.f3e761cd.jpg",
     "static/media/hero-image7.d3d27035.jpg": "/javierWash/static/media/hero-image7.d3d27035.jpg",
     "static/media/interior-car-logo.c9fa5642.webp": "/javierWash/static/media/interior-car-logo.c9fa5642.webp",
-    "static/media/logo1.e1641a74.png": "/javierWash/static/media/logo1.e1641a74.png",
     "static/media/shiny-entire-car.35253e0a.jpg": "/javierWash/static/media/shiny-entire-car.35253e0a.jpg"
   },
   "entrypoints": [
@@ -32,6 +31,6 @@
     "static/css/2.8bae3570.chunk.css",
     "static/js/2.a7248e5d.chunk.js",
     "static/css/main.1ed9d1b3.chunk.css",
-    "static/js/main.48c20ddf.chunk.js"
+    "static/js/main.71595393.chunk.js"
   ]
 }
