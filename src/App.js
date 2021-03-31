@@ -12,9 +12,12 @@ import FAQPage from "./components/pages/FAQPage";
 import ScrollToTop from "./components/ScrollToTop";
 import ScrollTopButton from "./components/ScrollTopButton";
 
+// Change basenmae when get different domains so page loads as intended
+// For example for ghub it's https://mattj299.github.io/matthewjimenez so you would add /matthewjimenez
+
 function App() {
   return (
-    <Router>
+    <Router basename="/javierWash">
       <ScrollToTop>
         <Navbar />
         <ScrollTopButton />
