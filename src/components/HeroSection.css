@@ -138,17 +138,16 @@ This is experiment I want to make my website look better, not so fucking basico 
   .hero-text-wrapper {
     font-size: 1em;
   }
+
+  .hero-background {
+    background-attachment: unset;
+  }
 }
 
 @media (max-width: 550px) {
   .half-text-wrapper {
     top: 20px;
   }
-
-  .hero-background {
-    background-attachment: unset;
-  }
-
   /* Adds the black and white to the sides or bottom, making the text readable without really messing up bg imag */
   .full-hero .hero-gradient.white {
     background: linear-gradient(
