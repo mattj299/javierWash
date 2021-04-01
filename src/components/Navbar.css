@@ -123,6 +123,7 @@
     top: 0;
     background-color: rgba(0, 0, 0, 0.9);
     transition: all 0.5s;
+    overflow: scroll;
   }
 
   .nav-menu.active {

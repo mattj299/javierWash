@@ -3,7 +3,7 @@
   right: 50px;
   bottom: 50px;
   cursor: pointer;
-  z-index: 999;
+  z-index: 2;
 }
 
 .scroll-top-button-wrapper {
@@ -43,5 +43,11 @@
   .icon-background {
     right: 35px;
     bottom: 39px;
+  }
+}
+
+@media (max-width: 550px) {
+  .scroll-top-button {
+    display: none;
   }
 }
