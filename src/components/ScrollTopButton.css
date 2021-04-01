@@ -3,7 +3,11 @@
   right: 50px;
   bottom: 50px;
   cursor: pointer;
+<<<<<<< HEAD
   z-index: 2;
+=======
+  z-index: 1;
+>>>>>>> 0818359809d017ec884cd4dfcea7a595fb67c342
 }
 
 .scroll-top-button-wrapper {
