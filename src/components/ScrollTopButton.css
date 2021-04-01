@@ -3,7 +3,7 @@
   right: 50px;
   bottom: 50px;
   cursor: pointer;
-  z-index: 999;
+  z-index: 1;
 }
 
 .scroll-top-button-wrapper {

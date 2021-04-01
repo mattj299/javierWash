@@ -102,13 +102,19 @@
     border: none;
   }
 
+  .nav-logo {
+    position: relative;
+    top: 35px;
+  }
+
   .menu-icon {
     display: inline;
   }
 
-  .nav-logo {
-    position: relative;
-    top: 35px;
+  .navbar.active .menu-icon,
+  .navbar.active .nav-logo-link {
+    position: fixed;
+    z-index: 2;
   }
 
   .nav-menu {
@@ -126,6 +132,7 @@
   }
 
   .nav-menu.active {
+    position: fixed;
     left: 0;
     opacity: 1;
   }
@@ -140,16 +147,10 @@
 
   .nav-links {
     padding: 0;
-    height: 100px;
+    height: 115px;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-
-  .nav-links:hover {
-    padding: 1em 2em;
-    border-bottom: 1px solid var(--main-red);
-    border-top: 1px solid var(--main-red);
   }
 }
 
