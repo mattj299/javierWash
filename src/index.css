@@ -1,4 +1,4 @@
-/* Main breaking points 850px 550px, different breaking points for Services section since boxes would otherwise stretch too much */
+/* Main breaking points min-width: 1750px(scale up), max: 850px 550px, there are different breaking points for certain places but these are main */
 /* Your website looks like shit sir */
 
 /* General Section */
@@ -73,6 +73,13 @@ section {
     margin: 0 1em;
   }
 }
+
+@media (min-width: 1750px) {
+  body {
+    font-size: 1.3em;
+  }
+}
+
 /* Main Colors */
 
 :root {

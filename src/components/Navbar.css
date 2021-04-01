@@ -164,8 +164,8 @@
   }
 }
 
-/* @media (max-width: 400px) {
-  .navbar {
-    padding-top: 25px;
+@media (min-width: 1750px) {
+  .nav-logo {
+    top: 45px;
   }
-} */
+}

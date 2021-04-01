@@ -133,3 +133,9 @@
     transform: scale(1);
   }
 }
+
+@media (min-width: 1750px) {
+  .pricing-card-per-car {
+    margin-top: 15px;
+  }
+}

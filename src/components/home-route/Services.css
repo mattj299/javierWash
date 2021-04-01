@@ -121,3 +121,13 @@
     margin: 1.5% 0;
   }
 }
+
+@media (min-width: 1750px) {
+  .service-box {
+    height: 300px;
+  }
+
+  .service-boxes {
+    max-width: 1500px;
+  }
+}
